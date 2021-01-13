@@ -1,0 +1,365 @@
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap'); 
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Roboto+Slab&display=swap'); 
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Anton&family=DM+Serif+Display:ital@0;1&family=Imbue:wght@700&family=Lobster&family=Permanent+Marker&family=Zilla+Slab+Highlight:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Yusei+Magic&display=swap');  
+.App {
+  text-align: center;    
+ 
+}
+
+.container, .container-fluid, .container-lg, .container-md, .container-sm, .container-xl {
+  width: 100%;
+  
+  /* padding-right: 15px; */
+  /* padding-left: 15px; */
+  /* margin-right: auto; */
+  /* margin-left: auto; */
+}
+ #h2-about{ 
+  font-family: 'Anton', sans-serif;
+  color: #f1e29f; 
+  letter-spacing: 2px; 
+
+ }   
+ p{  
+  font-size: 60px;
+  color:#ebdc10; 
+  background-color: rgba(0, 0, 0, 0.7);  
+  font-family: 'Yusei Magic', sans-serif;
+ }
+
+.About-p { 
+  
+  font-size: 30px;
+  padding-top: 60px; 
+  font-family:'Roboto Slab', serif;  
+  color:white;
+  word-spacing: 3px; 
+  text-align: center;
+  
+}  
+#col1{ 
+  
+  background-color: #ebdc10; 
+  width: 200px; 
+  height: 300px; 
+ 
+
+  
+}  
+/*.text-color{
+  color:white;
+  font-size: 150%;
+
+} 
+
+
+h3{ 
+ color:white;
+ font-family: 'Merriweather', serif; 
+
+}   
+
+.style{ 
+  color: white;
+} 
+.images{  
+opacity: 0.5;
+ height:600px; 
+ 
+}  
+
+*/
+
+#col1-h1{ 
+  font-size: 70px;
+  color:#000000 ;  
+  font-style: italic; 
+  font-weight: bold;
+  padding-top:50px;
+}   
+
+#span-h1{  
+  color:#ffffff;  
+   margin-left: 190px;
+  font-size: 70px;
+  font-family: 'Lobster', cursive;
+  font-weight: bold;
+}
+#col-btn{ 
+padding-top: 120px; 
+margin-left:20px; 
+text-align: center;  
+
+} 
+#btn{ 
+  background-color: #f0f0f0; 
+  color:black; 
+  width: 120px; 
+  height: 40px; 
+  font-size: 20px; 
+  padding-top: 0; 
+  padding-bottom: 0; 
+  font-weight:bold;
+} 
+.col-xs-12{ 
+  opacity: 0.6; 
+
+}
+.text-color{
+  color:rgb(0, 0, 0);
+  font-size: 150%;
+
+} 
+.nav-color{
+background-color: #ebdc10;
+
+} 
+
+h3{ 
+ color:white;
+ font-family: 'Merriweather', serif; 
+
+}   
+
+
+ 
+.contact-style{ 
+  margin-top: 150px;
+background-color: rgba(44, 44, 49, 0.371);
+border-radius: 12px;
+border-radius: 12px;
+color: #f0f0f0; 
+} 
+#contact-btn{
+  width: 100px;
+  height: 40px;
+}
+.contact-label{
+  font-size: 20px;
+}
+.images{  
+opacity: 0.5;
+ height:600px; 
+ 
+}  
+
+@import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,300i,400,400i,600,600i,700&display=swap");
+
+* {
+  font-family: "Source Sans Pro", sans-serif;
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  list-style-type: none;
+  outline: none;
+}
+
+.nav-li{
+   
+  display: inline;
+  margin-right: 40px;
+ font-size: 20px;
+    
+}
+
+
+
+
+h1 {
+  font-size: 8rem;
+  letter-spacing: 0.1rem; 
+ font-style: italic;
+  color: #c3b218;
+  text-shadow: 0 0.2rem 5rem rgb(119, 115, 115);
+  
+}
+#header-icon{
+  width: 100px;
+}
+
+
+.alert {
+  position: absolute;
+  top: -3rem;
+  left: 0;
+  background-color: rgb(233, 72, 72);
+  width: calc(100% - 0.4rem);
+  border-radius: 0.5rem;
+  padding: 0.2rem;
+}
+
+.alert h3 {
+  font-size: 1.8rem;
+  color: #fff;
+  font-weight: 400;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.search-form input {
+  font-size: 1.6rem;
+  border: none;
+  border-bottom: 0.1rem solid #ccc;
+  margin: 0 0.5rem;
+  border-radius:4px;
+  height: 3rem;
+}
+
+.search-form input[type="text"] {
+  padding: 0 0.5rem;
+  width: 60%;
+  color: #555;
+}
+
+.search-form input[type="submit"] {
+  width: 15%;
+  text-transform: uppercase;
+  background-color: #c7a924;
+  color: #fff;
+}
+
+.recipes {
+  width: 90%;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.recipe {
+  width: 30rem;
+  margin: 3rem;
+  display: flex;
+  flex-direction: column;
+  background-color: #d3d3d3;
+  padding: 2rem;
+  position: relative;
+  border-radius: 0.5rem;
+}
+
+.recipe h2 {
+  background-color: rgba(161, 161, 161, 0.7);
+  border-radius: 0.5rem;
+  padding: 0.3rem 0.5rem;
+  position: absolute;
+  top: 2.5rem;
+  left: 2.5rem;
+  right: 2.5rem;
+  font-size: 2.5rem;
+  font-weight: 400;
+  text-shadow: 0 0.5rem 0.5rem rgba(250, 218, 159, 0.719);
+  color: #fff;
+}
+
+.recipe img {
+  border-radius: 0.5rem;
+  object-fit: cover;
+}
+
+.recipe a {
+  font-size: 1.8rem;
+  color: #40b48e;
+  font-family: 'Merriweather', serif; 
+
+}
+
+.recipe button {
+  font-size: 2rem;
+  text-transform: uppercase;
+  color: #fff;
+  background-color: #c0be3c;
+  border: none;
+  border-radius: 0.5rem;
+  height: 3rem;
+}
+
+.ingredient-list {
+  margin-top: 1rem;
+  background-color: #f0f0f0;
+  border-radius: 0.5rem;
+  padding: 0.5rem;
+}
+
+.ingredient-list li {
+  margin: 0.5rem 0;
+}
+
+.ingredient-text {
+  font-size: 1.7rem;
+  color: rgb(17, 17, 17);
+}
+
+.ingredient-weight {
+  color: #f5f5f5;
+  font-size: 1.3rem;
+}
+
+#main{
+  margin-top: 60px;
+width: 100%;
+}
+body{
+  background:#000000 !important;
+}
+#btn{
+  width: 450px;
+}
+#inputlg{
+  padding-top: -020px;
+  width: 450px;
+}
+
+#img{
+  background-image: url('./Components/icon/icon2.jpg');
+    height: 500px;
+    background-size: cover;
+
+    background-repeat: no-repeat;
+
+}
+#mask{
+  background-color: rgba(0, 0, 0, 0.6);
+ 
+  height: 400px;
+}
+#h1-search{
+  padding-top: 60px;
+  font-size: 50px;
+  color:white;
+  font-family: 'Merriweather', serif; 
+
+  
+}
+#form-search{
+  margin-top: -80px;
+}
+.nav-li{
+   
+  display: inline;
+  margin-right: 40px;
+ font-size: 20px;
+    
+}
+
+
+@media only screen and (max-width: 1000px) {
+ 
+
+  #span-h1{  
+    
+     
+    font-size: 45px;
+   
+  }
+
+  #col1-h1{ 
+    font-size: 60px;
+
+  }
+
+}
+
